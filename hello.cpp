@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, world!" << endl;
-    return 0;
+  cout << "Hello, world!" << endl;
+  cout << "Git is tracking this file" << endl;
+  return 0;
 }
