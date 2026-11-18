@@ -1,1 +1,15 @@
 Git practice notes
+
+a. What is the difference between git add and git commit?
+git add stages a file can be done with multiple files to add them all into one commit.
+git commit saves the staged files to the git tree.
+
+b. In Part 4, what did git restore do to hello.cpp 
+git restore undos changes by restore the file to the latest commit.
+
+c. Why should hello.exe be ignored instead of commited?
+It should be ignored as its compiled code for your machine. It would only not be ignored if you were putting it under a releases tab where it was designed to be downloaded and run on other machines.
+
+d. What is the difference between git restore (Part 4) and git revert (Part 5)?
+git restore restores to the latest commit git revert reverts the latest commit to the one before.
+
